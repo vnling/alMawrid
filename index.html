@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+
+    <link rel="stylesheet" href="index.css" />
+    <title>al Mawrid</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Al Mawrid Art Center</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">World Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">List View</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="map"></div>
+
+    <footer
+      style="text-align: center; background: rgb(230, 227, 227)"
+      class="page-footer"
+    >
+      <p>@2022 al Mawrid Arts Center</p>
+    </footer>
+  </body>
+</html>
