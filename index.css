@@ -3,6 +3,16 @@ body {
 }
 
 #map {
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
+  max-width: 100%; /* added */
+}
+
+.mapboxgl-popup {
+  min-width: 700px;
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.page-view-my {
+  max-height: 100%;
 }

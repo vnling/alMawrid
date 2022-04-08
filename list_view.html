@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+
+    <link rel="stylesheet" href="list_view.css" />
+    <title>al Mawrid</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div style="height: 100vh">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Al Mawrid Art Center</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">World Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="list_view.html">List View</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Content -->
+      <div class="container-fluid">
+        <div class="country-container">
+          <a href="#egypt" class="h2" data-toggle="collapse"
+            ><h2>
+              <p class="country">Egypt</p>
+            </h2>
+          </a>
+          <div id="egypt" class="collapse">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+        <div class="country-container">
+          <a href="#jordan" class="h2" data-toggle="collapse"
+            ><h2>
+              <p class="country">Jordan</p>
+            </h2>
+          </a>
+          <div id="jordan" class="collapse">
+            <p>
+              Jordan, an Arab nation on the east bank of the Jordan River, is
+              defined by ancient monuments, nature reserves and seaside resorts.
+              Its home to the famed archaeological site of Petra, the Nabatean
+              capital dating to around 300 B.C. Set in a narrow valley with
+              tombs, temples and monuments carved into the surrounding pink
+              sandstone cliffs, Petra earns its nickname, the "Rose City".
+            </p>
+            <a href="#amman" class="h2" data-toggle="collapse"
+              ><h3>
+                <p class="city">Amman</p>
+              </h3>
+            </a>
+            <div id="amman" class="collapse">
+              <p>Abʿaad Gallery قاعة ابعاد للفنون</p>
+              <p>Centre Culturel Français معهد الثقافة الفرانسي</p>
+              <p>
+                National Gallery of FIne Arts المتحف الوطني الاردني للفنون
+                الجميلة
+              </p>
+              <p>Royal Cultural Center</p>
+              <p>University of Jordan</p>
+              <p>Yamama Hotel</p>
+              <p>جمعية الشابات المسيحيه</p>
+              <p>The British Council Centre</p>
+              <p>قصر الثقافة بمدينة الحسين للشباب</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="country-container">
+          <a href="#lebanon" class="h2" data-toggle="collapse"
+            ><h2>
+              <p class="country">Lebanon</p>
+            </h2>
+          </a>
+          <div id="lebanon" class="collapse">
+            <p>
+              Lebanon, officially the Republic of Lebanon or the Lebanese
+              Republic, is a country in Western Asia. It is located between
+              Syria to the north and east and Israel to the south, while Cyprus
+              lies to its west across the Mediterranean Sea; its location at the
+              crossroads of the Mediterranean Basin and the Arabian hinterland
+              has contributed to its rich history and shaped a cultural identity
+              of religious diversity.Lebanon is home to roughly six million
+              people and covers an area of 10,452 square kilometres (4,036 sq
+              mi), making it one of the smallest countries in the world. The
+              official language of the state is Arabic, while French is also
+              formally recognized; the Lebanese dialect of Arabic is used
+              alongside Modern Standard Arabic throughout the country.
+            </p>
+            <a href="#beirut" class="h2" data-toggle="collapse"
+              ><h3>
+                <p class="city">Beirut</p>
+              </h3>
+            </a>
+            <div id="beirut" class="collapse">The Capital of Lebanon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer style="text-align: center" class="page-footer">
+      <div style="padding-top: 1%"><p>@2022 al Mawrid Arts Center</p></div>
+    </footer>
+  </body>
+</html>
